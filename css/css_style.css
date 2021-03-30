@@ -2,6 +2,49 @@ html {
   scroll-behavior: smooth;
 }
 
+@media screen and (max-width: 576px)
+{
+  div p
+  {
+    margin-left: 20px;
+    margin-top: 12.5px;
+  }
+
+
+  h1#title
+  {
+    float: left;
+    width: 80%;
+    margin-left: 20px;
+  }
+
+  h2#title2
+  {
+    float: left;
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 120px;
+  }
+
+  .rectangle_offer
+  {
+    float: left;
+    margin-left: 20px;
+  }
+
+  div .menu
+  {
+    display: none;
+  }
+
+  div.container.second_section
+  {
+    width: 375px;
+  }
+
+}
+
+
 .container {
   width: 960px;
   margin: 0 auto;
@@ -95,7 +138,6 @@ html {
   padding: 0 0;
   
 }
-
 
 .rectangle_offer:hover {
   background-color: white;
