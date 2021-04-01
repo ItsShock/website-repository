@@ -72,12 +72,12 @@ html {
 
   div .ellipse1
   {
-    width: 45%;
+    width: 50%;
   }
 
   div .ellipse2
   {
-    width: 45%;
+    width: 50%;
   }
 
   div .person1
@@ -212,6 +212,7 @@ html {
   div .ellipse1
   {
     margin-bottom: 90px;
+    width: 221px;
   }
 
   div .person1
@@ -221,7 +222,7 @@ html {
     align-content: flex-start;
     margin-left: 0;
   }
-  div .first_specialist
+  div .person-even
   {
     flex-direction: column;
     justify-content: center;
@@ -242,12 +243,13 @@ html {
 
   div .ellipse2
   {
+    width: 221px;
     margin-bottom: 90px;
     margin-left: 0;
   }
 
 
-  div .second_specialist
+  div .person .person-odd
   {
     flex-direction: column;
     justify-content: center;
@@ -299,7 +301,7 @@ html {
   {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
   }
 
   footer h2#footer_title
@@ -307,16 +309,21 @@ html {
     font-size: 15px;
     margin-right: 0;
     margin-left: 20px;
+    width: 100%;
   }
 
   .fab.fa-facebook-square.fa-2x 
   {
-    margin-right: 20px
+    margin-right: 20px;
+    display: flex;
+    justify-self: flex-end;
+    justify-content: flex-end;
+    
   }
 
   .fab.fa-instagram.fa-2x
   {
-    margin-left: 100px;
+    margin-left: 10px;
     display: flex;
     justify-self: flex-end
   }
@@ -491,7 +498,7 @@ header div a {
   margin-left: 50px;
 }
 
-.first_specialist{
+.person .person-even{
   display: flex;
   margin-bottom: 250px;
 }
@@ -515,7 +522,7 @@ div .person1 #p_1
   margin-bottom: 38px;
 }
 
-.second_specialist{
+.person .person-odd{
   display: flex;
   flex-direction: row-reverse;
   margin-bottom: 200px;
